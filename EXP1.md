@@ -86,24 +86,32 @@ def iterate():
 iterate()
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 ### Output:
+### do...while:
+
+![exp1a_!](https://github.com/user-attachments/assets/2827f6f1-3670-463d-9cec-ce4260766f3b)
+
+![exp 1a_2](https://github.com/user-attachments/assets/330691bd-1338-48d8-9adf-56d0501a89bf)
 
 
+### while...do:
+
+![exp 1b](https://github.com/user-attachments/assets/e250180b-5af8-47fe-a050-1a738c0503fb)
 
 
+### switch:
+
+![exp 1c](https://github.com/user-attachments/assets/df6b1af4-4d46-432a-80c2-7f6f1c4ac78f)
 
 
+### if..else:
+
+![exp 1d](https://github.com/user-attachments/assets/5c0d22c0-3a1f-435b-90b3-0c0be05aafd3)
+
+
+### for:
+
+![exp1e (2)](https://github.com/user-attachments/assets/3ff67dc2-1417-4787-a481-18bd512f02b5)
 
 ### Result:
 Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
