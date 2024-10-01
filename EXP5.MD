@@ -91,5 +91,5 @@ Element is present at index 1
 
 
 ### Result:
-Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
+Thus, the python program to check the number is present in the array or not implemented and the output is verified successfully.
 
