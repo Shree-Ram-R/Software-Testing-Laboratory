@@ -52,9 +52,35 @@ else:
 
 
 ### Output:
+```
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 6
+Not a Prime Number
 
-![bfs]()
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: say
+Enter a Positive Number
 
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: *65
+Enter a Positive Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: -98
+Enter a Positive Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 0
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 123456
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number:
+Enter a Positive Number
+```
 
 ### Result:
 Thus, the python program to check the number is prime or not is implemented and the output is verified successfully.
