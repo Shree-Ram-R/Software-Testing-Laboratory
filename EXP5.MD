@@ -1,4 +1,6 @@
 # Ex.No: 5 check the given number is present in array or not and inspect for failures.
+
+
 # DATE:
 # REGISTER NUMBER :212222040154
 
