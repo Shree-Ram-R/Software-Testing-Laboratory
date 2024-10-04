@@ -47,7 +47,8 @@ except:
 ```
 ### Output:
 
-![exp5](https://github.com/user-attachments/assets/58903709-ac3b-4136-96ff-e1cef85218c2)
+![exp5](https://github.com/user-attachments/assets/733a3571-d927-4f0c-98c2-49501a740c75)
+
 
 ### Result:
 Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
