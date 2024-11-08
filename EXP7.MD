@@ -21,6 +21,7 @@ cash to the customer. The banks provide their own software for their own compute
 Software must handle concurrent accesses to the same account correctly.
 ### Intended Audience:
 The intended audience of this SRS consists of:
+
 □ Software designers
 □ Systems engineers
 □ /Software developers
