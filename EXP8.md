@@ -133,63 +133,63 @@ trends followed by IT industries including software development methodologies an
 Test cases for opening bank account
 ### 1. Input parameters checking
 - Name
-- 
+ 
 -Date of Birth
 
 - Photo
-- 
--Address Proof
+  
+- Address Proof
 
--Identity proof
+- Identity proof
 
--Introducers (if applicable)
+- Introducers (if applicable)
 
 - PAN card
-- 
--Initial deposit
+  
+- Initial deposit
 
--Whether checkbook / ATM card / Online banking facilities are needed or not
+- Whether checkbook / ATM card / Online banking facilities are needed or not
 
--Customer signature
+- Customer signature
 
 ### Type of account
 - Savings account
   
--Salary account
+- Salary account
 
--Joint account
+- Joint account
 
 - Current account
-- 
+  
 - Secondary account
   
--RD account
+- RD account
 
--Account for a company
+- Account for a company
 
 ### Test cases
 
--Checking mandatory input parameters
+- Checking mandatory input parameters
 
--Checking optional input parameters
+- Checking optional input parameters
 
--Check whether able to create account entity.
+- Check whether able to create account entity.
 
--Check whether you are able to deposit an amount in the newly created account (and thus updating the balance)
+- Check whether you are able to deposit an amount in the newly created account (and thus updating the balance)
 
--Check whether you are able to withdraw an amount in the newly created account (after
+- Check whether you are able to withdraw an amount in the newly created account (after
 deposit) (and thus updating the balance)
 
--Check whether company name and its pan number and other details are provided in case ofsalary
+- Check whether company name and its pan number and other details are provided in case ofsalary
 account
 
--Check whether primary account number is provided in case of secondary account
+- Check whether primary account number is provided in case of secondary account
 
--Check whether company details are provided in cases of company's current account
+- Check whether company details are provided in cases of company's current account
 
--Check whether proofs for joint account is provided in case of joint account
+- Check whether proofs for joint account is provided in case of joint account
 
--Check whether you are able deposit an account in the name of either of the person in a joint
+- Check whether you are able deposit an account in the name of either of the person in a joint
 
 
 ### Result:
