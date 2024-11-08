@@ -26,7 +26,7 @@ The intended audience of this SRS consists of:
 
 □ Systems engineers
 
-□ /Software developers
+□ Software developers
 
 □ Software testers
 
@@ -46,17 +46,67 @@ such as an expiration date or CVC (CVV). Security is provided by the customer en
 personal identification number (PIN).
 
 
-### Product Functions:
+### Product functions:
+Using an ATM, customers can access their bank accounts in order to make cash withdrawals
+(or credit
+card cash advances) and check their account balances. The functions of the system are:
+1. Login
+2. Get Balance Information
+3. Withdraw Cash
+4. Transfer Funds
+### Operating Environments:
+The hardware, software and technology used should have following specifications:
 
+□ Ability to read the ATM card.
 
+□ Ability to count the currency notes.
 
-### Operative Environments:
+□ Touch screen for convenience.
 
+□ Keypad(in case touchpad fails)
 
+□ Continuous power supply.
 
-### Design/implementation constraints: 
+□ Ability to connect to bank’s network.
 
+□ Ability to validate user.
 
+### Design/implementation constraints:
+Login:
+Validate Bank Card
+
+□ Validate for Card Expiration Date
+
+□ Validate that the card's expiration date is later than today's date
+
+□ If card is expired, prompt error message "Card is expired"
+
+Validate for Stolen or Lost Card
+
+□ Validate that the card is not reported lost or stolen
+
+□ If card is lost, prompt error message, "Card has been reported lost"
+
+□ If card is stolen, prompt error message, "Card has been reported stolen"
+Validate for Disabled Card
+
+□ Validate that the card is not disabled
+
+□ If card is disabled, prompt error message, "Card has been disabled as of
+<expiration date>"
+Validate for Locked Account Validate
+that the account is not locked
+
+□ If account is locked, prompt error message "Account is locked"
+
+Validate PIN
+□ Validate that the password is not blank
+
+□ If PIN is blank, prompt error message "Please provide PIN"
+
+□ Validate that the password entered matches the password on file
+
+□ If password does not match, prompt error message "Password is Incorrect"
 
 ### Assumptions and Dependencies: 
 
