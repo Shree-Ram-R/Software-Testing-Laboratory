@@ -1,6 +1,6 @@
 # Ex.No: 7  ATM Applicationn
 ### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212222040154
 ### AIM: 
 For ATM system study its system specifications and report various bugs
 ### Purpose:
@@ -108,26 +108,107 @@ Validate PIN
 
 □ If password does not match, prompt error message "Password is Incorrect"
 
-### Assumptions and Dependencies: 
+Lock Account
+□ If number of consecutive unsuccessful logins exceeds three attempts, lock account.
+Maintain Consecutive Unsuccessful Login Counter
+Increment Login Counter
+For every consecutive Login attempt, increment logic counter by 1.
+Reset login counter to 0 after login is successful.
+Get Balance Information
+Withdraw Cash
+Transfer Funds
+### Assumptions and Dependencies:
 
+□ Hardware never fails
 
+□ ATM casing is impenetrable
 
-### Software interfaces 
+□ Limited number of transactions per day (sufficient paper for receipts)
 
+□ Limited amount of money withdrawn per day (sufficient money)
 
+External Interface Requirements
+User interfaces
+The customer user interface should be intuitive, such that 99.9% of all new ATM users are able to
+complete their banking transactions without any assistance.
+Hardware interfaces
+The hardware should have following specifications:
 
-### Safety requirements: 
+□ Ability to read the ATM card
 
+□ Ability to count the currency notes
 
+□ Touch screen for convenience 
 
-### Security requirements: 
+□ Keypad (in case touchpad fails)
 
+□ Continuous power supply
+
+□ Ability to connect to bank’s network
+
+□ Ability to take input from user
+
+□ Ability to validate user
+
+### Software interfaces
+The software interfaces are specific to the target banking software systems. At present, two known
+banking systems will participate in the ATM network.
+
+□ State Bank
+
+□ Indian Overseas Bank
+
+### Safety requirements:
+Must be safe kept in physical aspects, say in a cabin
+
+□ Must be bolted to floor to prevent any kind of theft
+
+□ Must have an emergency phone outside the cabin
+
+□ There must be an emergency phone just outside the cabin
+
+□ The cabin door must have an ATM card swipe slot
+
+□ The cabin door will always be locked, which will open only when user swipes his/her
+ATM card in the slot & is validated as genuine
+
+Security requirements:
+
+□ Users accessibility is censured in all the ways
+
+□ Users are advised to change their PIN on first use
+
+□ Users are advised not to tell their PIN to anyone
+
+□ The maximum number of attempts to enter PIN will be three
 
 
 ### Possible Bugs:
-
-
-
+1. Successful insertion of ATM card
+2. Unsuccessful operation due to insert card in wrong angle
+3. Unsuccessful operation due to invalid account Ex: other bank card or time expired card
+4. successful entry of PIN number
+5. un successful operation due to enter wrong PIN number 3times
+6. successful selection of language
+7. successful selection of account type
+8. unsuccessful operation due to invalid account type
+9. successful selection of withdraw operation
+10. successful selection of amount to be withdrawal
+11. successful withdraw operation
+12. unsuccessful withdraw operation due to wrong denominations
+13. unsuccessful withdraw operation due to amount is greater than day limit
+14. unsuccessful withdraw operation due to lack of money in ATM
+15. unsuccessful withdraw operation due to amount is greater than possible balance
+16. unsuccessful withdraw operation due to transactions is greater than day limit
+17. unsuccessful withdraw operation due to click cancel after insert card
+18. unsuccessful withdraw operation due to click cancel after insert card & pin number
+19. unsuccessful withdraw operation due to click cancel after insert card, pin number & language
+20. unsuccessful withdraw operation due to click cancel after insert card, pin number, language
+&account type
+21. unsuccessful withdrawal operation due to click cancel after insert card, pin number, language,
+account type & withdrawal operation
+22. unsuccessful withdrawal operation due to click cancel after insert card, pin number, language,
+account type, withdrawal operation &amount to be withdraw
 
 
 ### Result:
