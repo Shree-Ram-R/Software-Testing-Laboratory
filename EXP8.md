@@ -131,7 +131,7 @@ In this article we discussed how complex a Banking application could be and what
 typical phases involved in testing the application. Apart from that we also discussed current
 trends followed by IT industries including software development methodologies andtools.
 Test cases for opening bank account
-1. Input parameters checking
+### 1. Input parameters checking
 - Name
 -Date of Birth
 - Photo
@@ -142,7 +142,7 @@ Test cases for opening bank account
 -Initial deposit
 -Whether checkbook / ATM card / Online banking facilities are needed or not
 -Customer signature
-Type of account
+### Type of account
 - Savings account
 -Salary account
 -Joint account
@@ -150,21 +150,31 @@ Type of account
 - Secondary account
 -RD account
 -Account for a company
-Test cases
+
+### Test cases
+
 -Checking mandatory input parameters
+
 -Checking optional input parameters
+
 -Check whether able to create account entity.
--Check whether you are able to deposit an amount in the newly created account (and thus updating
-the balance)
+
+-Check whether you are able to deposit an amount in the newly created account (and thus updating the balance)
+
 -Check whether you are able to withdraw an amount in the newly created account (after
 deposit) (and thus updating the balance)
+
 -Check whether company name and its pan number and other details are provided in case ofsalary
 account
+
 -Check whether primary account number is provided in case of secondary account
+
 -Check whether company details are provided in cases of company's current account
+
 -Check whether proofs for joint account is provided in case of joint account
+
 -Check whether you are able deposit an account in the name of either of the person in a joint
-Result:
-Thus, the Test cases for Banking Application is implemented and output is verified successfully.
+
+
 ### Result:
 Thus, the Test cases for Banking Application is implemented and output is verified successfully. 
