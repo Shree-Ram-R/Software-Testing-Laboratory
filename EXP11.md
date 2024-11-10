@@ -24,7 +24,7 @@ assert add(2,3) == 6
 ```
 
 ### Output:
-![ex77](https://github.com/user-attachments/assets/39e4c781-e922-4c3c-9f6e-07609bd9d074)
+![STLN](https://github.com/user-attachments/assets/c459758c-e8a3-4f6a-87a9-2e9bcc983b88)
 
 ### Result:
-Thus, a program to check palindrome has been written and test cases have been written and verified successfully
+Thus, the python program for addition is tested using pytest and executed and output is verified successfully
