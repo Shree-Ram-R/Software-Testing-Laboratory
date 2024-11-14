@@ -1,6 +1,6 @@
 # Ex.No: 6 To check whether the string is Palindrome and generate test cases.
                                                             
-### REGISTER NUMBER : 212222040119
+### REGISTER NUMBER : 212222040154
 ### AIM: 
 Write a Python program to check whether the string is Palindrome and generate test cases. 
 ### Algorithm:
